@@ -1,0 +1,57 @@
+form {
+    list-style-type: none;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.titleHeader {
+    text-align: center;
+    float: none;
+    clear: both;
+}
+
+li {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+input {
+    width: 99%;
+    height: 35px;
+    margin-left: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+.planet {
+    float: left;
+    text-align: center;
+    border: 1px solid #eee;
+    padding: 50px 10px;
+    vertical-align: middle;
+    line-height: 35px;
+    width: 350px;
+    height: 40px;
+    background-color: #eaebed;
+    margin: 2px;
+    font-size: 26px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #76a4ed 50%, #99baef 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.2s ease;
+}
+
+.planet:hover {
+     background-position:left bottom;
+     text-transform: uppercase;
+}
+
+.planets {
+    width: 90%;
+    margin: 0 auto;
+}
